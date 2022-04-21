@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+ <body>
+    <script>
+    'use strict';
+    let arr = [1,2,3,4,5];
+    arr.splice(1,2);
+    console.log(arr);
+    let arr01 = [1,2,3,4,5];
+    let newArr01 = arr01.splice(1,3);
+    console.log(newArr01);
+    let arr02 = [1,2,3,4,5];
+    arr02.splice(3,0, 'a','b','c',);
+    console.log(arr02)
+    let arr03 = [1,2,3,4,5];
+    arr03.splice(1,4, 'a','b',2,3,4,'c',5,'e');
+    console.log(arr03);
+    </script>
+  </body>
+</html>
